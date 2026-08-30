@@ -1,4 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
-  <rect width="48" height="48" rx="10" fill="#080A0F"/>
-  <path d="M28 6L14 26h8l-4 16 16-22h-9l5-14z" fill="#E8C84A" stroke="#C8A90A" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.1" y2="1">
+      <stop offset="0%" stop-color="#F5D547"/>
+      <stop offset="50%" stop-color="#E8C84A"/>
+      <stop offset="100%" stop-color="#C8A90A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#080A0F"/>
+  <rect x="110" y="110" width="292" height="292" rx="52" ry="52" fill="url(#g)"/>
+  <!-- Bolt cut 1 -->
+  <path d="M175 110 L215 110 L185 195 L240 195 L155 402 L195 402 L280 195 L225 195 L255 110 Z" fill="#080A0F"/>
+  <!-- Bolt cut 2 (parallel offset) -->
+  <path d="M255 110 L295 110 L265 195 L320 195 L235 402 L275 402 L360 195 L305 195 L335 110 Z" fill="#080A0F"/>
 </svg>
