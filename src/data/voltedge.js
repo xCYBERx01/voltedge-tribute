@@ -139,6 +139,7 @@ export const chapters = [
     title: "Built moment\nby moment.",
     body: [
       "Every advancement had to fit into a month overflowing with academic deadlines, council responsibilities, robotics commitments, daily student life.",
+      "Then the worst happened. The night before departure — servo jittered and died. While trying to fix it, the voltage regulator overheated and blew up, taking the ESP32 and the entire Hexa Command Hub with it. The robot was dead. They stayed all night. They went to school at 5 AM looking for parts. Nothing. They left for Bombay with a robot that wouldn't move. At the hotel, they ordered a replacement Hub from the NRL organizers. It arrived. They rebuilt it. Two days later, they competed.",
     ],
     timeline: [
       { date: "4 Oct", title: "The First Spark", desc: "Omer shares NRL with Abdullah. No robot, no plan — only curiosity." },
@@ -149,7 +150,9 @@ export const chapters = [
       { date: "7 Nov", title: "Reveal", desc: "Team Reveal shot morning of tour departure." },
       { date: "15—25 Nov", title: "Autonomy", desc: "Sensor integration. Tape tests. Drift fixes." },
       { date: "30 Nov", title: "Portfolio", desc: "This document — every test, screenshot, decision." },
-      { date: "4—5 Dec", title: "Robot Reveal", desc: "Live just before travel." },
+      { date: "3 Dec", title: "The Night Before", desc: "Servo dies. Voltage regulator blows. ESP32 gone. Hexa Command Hub dead. All-night fix attempt. School at 5 AM for parts. Nothing works. Robot is dead." },
+      { date: "4 Dec", title: "Leaving Broken", desc: "Packed and left for Bombay with a robot that wouldn't move. No parts available in Bhatkal." },
+      { date: "5 Dec", title: "The lifeline", desc: "Ordered Hexa Command Hub from NRL organizers. Package arrived at the hotel. Started fixing." },
       { date: "6—7 Dec", title: "IIT Bombay", desc: "The arena where every late evening comes together." },
     ],
     closing: "These challenges did not interrupt our journey. They defined it. Follow us: @teamvoltedge",

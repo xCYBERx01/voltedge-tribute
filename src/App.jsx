@@ -240,6 +240,14 @@ export default function App() {
         {/* ARENA — the climax */}
         <section id="arena" className="waypoint waypoint--full">
           <div className="waypoint_inner" style={{ maxWidth:900, margin:"0 auto" }}>
+            <div className="reveal" style={{ textAlign:"center", marginBottom:28 }}>
+              <div style={{ fontFamily:"Cormorant Garamond, serif", fontSize:22, lineHeight:1.5, color:"#E8C84A", fontStyle:"italic", maxWidth:640, margin:"0 auto" }}>
+                "Our robot was dead the night before we left. Voltage regulator blown. ESP32 gone. Hexa Command Hub gone. We left for Bombay with a robot that wouldn't move."
+              </div>
+              <div style={{ fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".12em", textTransform:"uppercase", color:"#6B7280", marginTop:10 }}>
+                3 December 2025 — Bhatkal
+              </div>
+            </div>
             <div className="reveal">
               <div className="meta" style={{ justifyContent:"center" }}><span className="meta_num">{chapters[4].num}</span> <span>{chapters[4].kicker}</span></div>
               <h2 style={{ textAlign:"center", textTransform:"uppercase" }}>IIT BOMBAY</h2>
