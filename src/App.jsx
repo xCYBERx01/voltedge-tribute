@@ -159,9 +159,7 @@ export default function App() {
               <div className="visual_card">
                 <div className="visual_head"><span>01 — Group • Bhatkal • 30 Nov 2025</span> <span className="dot" /></div>
                 <div className="visual_body">
-                  <div className="ph" style={{ background: "radial-gradient(500px 300px at 40% 20%, rgba(200,169,10,0.18), transparent 60%), linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01))"}}>
-                    <span>Team VoltEdge — 6 builders + mentor • p06 photograph</span>
-                  </div>
+                  <img src="/assets/voltedge/portfolio1_p06_2.jpeg" alt="Team VoltEdge — Bhatkal, 30 Nov 2025" style={{ width:"100%", borderRadius:12, objectFit:"cover" }} loading="lazy" />
                   <div className="tagrow"><span className="tag">Bhatkal coast</span><span className="tag">Team 007</span><span className="tag">IIT Bombay bound</span></div>
                   <p style={{ fontFamily:"Josefin Sans, sans-serif", fontWeight:300, fontSize:13, lineHeight:1.6, color:"#9AA0AE", marginTop:10}}>
                     Six students, no robot, no workspace — only curiosity. From that midnight message to a national arena with confidence.
@@ -212,8 +210,8 @@ export default function App() {
                 <div className="visual_head"><span>Workbench • p09—10 photos</span><span className="dot" /></div>
                 <div className="visual_body">
                   <div className="gallery" style={{ gridTemplateColumns:"1fr 1fr"}}>
-                    <div className="ph"><span>Evening session</span></div>
-                    <div className="ph"><span>Crowded table</span></div>
+                    <img src="/assets/voltedge/portfolio1_p09_2.jpeg" alt="Evening session" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"4/3" }} loading="lazy" />
+                    <img src="/assets/voltedge/portfolio1_p10_2.jpeg" alt="Crowded table" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"4/3" }} loading="lazy" />
                   </div>
                   <p style={{ fontFamily:"Josefin Sans", fontWeight:300, fontSize:13, color:"#9AA0AE", marginTop:10}}>{chapters[3].caption}</p>
                 </div>
@@ -240,7 +238,7 @@ export default function App() {
                   <div className="specs">
                     {chapters[4].specs.map(s=> <div key={s.label} className="spec"><span>{s.label}</span><span>{s.value}</span></div>)}
                   </div>
-                  <div className="ph" style={{ marginTop:12, aspectRatio:"16/10"}}><span>Chassis exploded • acrylic + steel brackets</span></div>
+                  <img src="/assets/voltedge/portfolio1_p13_2.jpeg" alt="BaseBot chassis — dual-layer acrylic" style={{ width:"100%", borderRadius:12, objectFit:"cover", marginTop:12, aspectRatio:"16/10" }} loading="lazy" />
                 </div>
               </div>
             </div>
@@ -268,7 +266,7 @@ export default function App() {
               <div className="visual_card">
                 <div className="visual_head"><span>EdgeBot • Monster-truck shell • Aero wing</span><span className="dot" /></div>
                 <div className="visual_body">
-                  <div className="ph" style={{ aspectRatio:"16/12"}}><span>EdgeBot hero • 3D shell • downlights</span></div>
+                  <img src="/assets/voltedge/portfolio1_p18_2.jpeg" alt="EdgeBot — monster-truck shell, aero wing" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"16/12" }} loading="lazy" />
                   <div className="tagrow"><span className="tag">Gyro</span><span className="tag">Ultrasonic</span><span className="tag">Line array</span><span className="tag">Telemetry</span></div>
                 </div>
               </div>
@@ -292,7 +290,7 @@ export default function App() {
               <div className="visual_card">
                 <div className="visual_head"><span>Chassis • p17 blueprint</span><span className="dot" /></div>
                 <div className="visual_body">
-                  <div className="ph" style={{ aspectRatio:"16/11"}}><span>36×26cm • dual-layer acrylic • holes/spacers purpose-placed</span></div>
+                  <img src="/assets/voltedge/portfolio1_p20_2.jpeg" alt="Chassis — dual-layer acrylic, 36x26cm" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"16/11" }} loading="lazy" />
                   <div className="specs">
                     <div className="spec"><span>Lead</span><span>Ahmed Irfan Akrami</span></div>
                     <div className="spec"><span>Refinements</span><span>22—27 Oct realignment</span></div>
@@ -317,7 +315,7 @@ export default function App() {
               <div className="visual_card">
                 <div className="visual_head"><span>Wiring • MDD10 + HEXA ESP32 • p19</span><span className="dot" /></div>
                 <div className="visual_body">
-                  <div className="ph" style={{ aspectRatio:"16/11"}}><span>Bottom plate MDD10 • ESP32 hub • color jumpers</span></div>
+                  <img src="/assets/voltedge/portfolio1_p25_2.jpeg" alt="Wiring — MDD10A + HEXA ESP32" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"16/11" }} loading="lazy" />
                   <div className="specs">
                     <div className="spec"><span>Brain</span><span>HEXA Command Hub ESP32</span></div>
                     <div className="spec"><span>Driver</span><span>Cytron MDD10A PWM</span></div>
@@ -345,7 +343,7 @@ export default function App() {
               <div className="visual_card">
                 <div className="visual_head"><span>PS5 → ESP32 • p22—27 custom map</span><span className="dot" /></div>
                 <div className="visual_body">
-                  <div className="ph" style={{ aspectRatio:"16/10"}}><span>PWM arm • Arduino IDE • upload → test → observe → fix</span></div>
+                  <img src="/assets/voltedge/portfolio1_p24_2.png" alt="PS5 → ESP32 custom mapping" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"16/10" }} loading="lazy" />
                   <div className="tagrow"><span className="tag">Left: forward</span><span className="tag">Right: turn</span><span className="tag">L2/R2: arm</span><span className="tag">R1: gripper</span></div>
                 </div>
               </div>
@@ -368,7 +366,7 @@ export default function App() {
               <div className="visual_card">
                 <div className="visual_head"><span>Sensing • 5×IR + gyro + ultrasonic • p29—32</span><span className="dot" /></div>
                 <div className="visual_body">
-                  <div className="ph" style={{ aspectRatio:"4/3"}}><span>IR array callouts • black tape track • p31 diagram</span></div>
+                  <img src="/assets/voltedge/portfolio2_p32_2.png" alt="Chassis sketch — sensor layout" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"4/3" }} loading="lazy" />
                   <div className="specs">
                     <div className="spec"><span>IR array</span><span>Threshold + correction logic</span></div>
                     <div className="spec"><span>Gyro</span><span>Drift correction, precise turns</span></div>
@@ -402,7 +400,7 @@ export default function App() {
               <div className="visual_card" style={{ marginTop:16}}>
                 <div className="visual_head"><span>Arena • p35 — Shortest route wins</span><span className="dot" /></div>
                 <div className="visual_body">
-                  <div className="ph" style={{ aspectRatio:"16/10"}}><span>Field • charge → drop zone • parking under station</span></div>
+                  <img src="/assets/voltedge/portfolio2_p35_2.jpeg" alt="Arena — Battle of Charges field" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"16/10" }} loading="lazy" />
                   <p style={{ textAlign:"center", fontFamily:"Josefin Sans", fontWeight:300, fontSize:13, color:"#9AA0AE", marginTop:10}}>Every movement shaped by one principle: If there is a shorter route, we take it.</p>
                 </div>
               </div>
@@ -447,7 +445,7 @@ export default function App() {
               <div className="visual_card" style={{ marginTop:16}}>
                 <div className="visual_head"><span>Field Reconstruction • Source → Drop → Station</span><span className="dot" /></div>
                 <div className="visual_body">
-                  <div className="ph" style={{ aspectRatio:"16/10", background:"radial-gradient(600px 400px at 20% 30%, rgba(0,229,255,0.08), transparent 60%), linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01))"}}><span>CHARGE path • Source Zone → robot → Drop Zone • Charge Station overhead</span></div>
+                  <img src="/assets/voltedge/portfolio2_p35_2.jpeg" alt="Arena — Source → Drop → Station" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"16/10" }} loading="lazy" />
                   <p style={{ textAlign:"center", fontFamily:"Josefin Sans", fontWeight:300, fontSize:13, color:"#9AA0AE", marginTop:10}}>The constraint is the design brief. EdgeBot was built for this exact geometry.</p>
                 </div>
               </div>
@@ -472,9 +470,9 @@ export default function App() {
                 <div className="visual_head"><span>Ali Public School • p37—38 gallery</span><span className="dot" /></div>
                 <div className="visual_body">
                   <div className="gallery">
-                    <div className="ph"><span>Workshop • ~40</span></div>
-                    <div className="ph"><span>Kits • Hands-on</span></div>
-                    <div className="ph"><span>Classroom</span></div>
+                    <img src="/assets/voltedge/portfolio2_p37_3.jpeg" alt="Workshop — Ali Public School" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"4/3" }} loading="lazy" />
+                    <img src="/assets/voltedge/portfolio2_p37_2.jpeg" alt="Kits — hands-on" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"4/3" }} loading="lazy" />
+                    <img src="/assets/voltedge/portfolio2_p38_3.jpeg" alt="Classroom session" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"4/3" }} loading="lazy" />
                   </div>
                   <div className="specs" style={{ marginTop:12}}>
                     <div className="spec"><span>Hosts</span><span>Mohiddin • Zaid • Omer • Abdullah • Irfan • Shamveel</span></div>
@@ -506,7 +504,7 @@ export default function App() {
                     <div className="kv_item"><div className="kv_label">Non-followers</div><div className="kv_value">{stats.nonFollower}</div></div>
                     <div className="kv_item"><div className="kv_label">Growth</div><div className="kv_value">{stats.profileGrowth}</div></div>
                   </div>
-                  <div className="ph" style={{ aspectRatio:"16/9", marginTop:12}}><span>Reels 56.8% • Posts 29.3% • Stories 13.9% — Top reel 20K+ • authentic wins</span></div>
+                  <img src="/assets/voltedge/portfolio2_p48_2.jpeg" alt="Instagram analytics — Reels 56.8%" style={{ width:"100%", borderRadius:12, objectFit:"cover", aspectRatio:"16/9", marginTop:12 }} loading="lazy" />
                   <p style={{ fontFamily:"Josefin Sans", fontWeight:300, fontSize:12, color:"#6B7280", marginTop:8}}>Trailer 30 Nov → Full reveal 4/5 Dec • Team reveal edited solo 7—13 Nov during tour by Abdullah.</p>
                 </div>
               </div>
