@@ -240,14 +240,6 @@ export default function App() {
         {/* ARENA — the climax */}
         <section id="arena" className="waypoint waypoint--full">
           <div className="waypoint_inner" style={{ maxWidth:900, margin:"0 auto" }}>
-            <div className="reveal" style={{ textAlign:"center", marginBottom:28 }}>
-              <div style={{ fontFamily:"Cormorant Garamond, serif", fontSize:22, lineHeight:1.5, color:"#E8C84A", fontStyle:"italic", maxWidth:640, margin:"0 auto" }}>
-                "Our robot was dead the night before we left. Voltage regulator blown. ESP32 gone. Hexa Command Hub gone. We left for Bombay with a robot that wouldn't move."
-              </div>
-              <div style={{ fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".12em", textTransform:"uppercase", color:"#6B7280", marginTop:10 }}>
-                3 December 2025 — Bhatkal
-              </div>
-            </div>
             <div className="reveal">
               <div className="meta" style={{ justifyContent:"center" }}><span className="meta_num">{chapters[4].num}</span> <span>{chapters[4].kicker}</span></div>
               <h2 style={{ textAlign:"center", textTransform:"uppercase" }}>IIT BOMBAY</h2>
@@ -397,6 +389,40 @@ export default function App() {
               <p style={{ fontFamily:"Josefin Sans", fontWeight:300, fontSize:14, lineHeight:1.6, color:"#C9CDD6", maxWidth:560, margin:"0 auto" }}>
                 Recognized for building a robotics culture in Bhatkal — school workshops, kits distributed, STEM awareness, and inspiring the next generation. Only team from Bhatkal at the national arena.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* THE STORY — what no one saw */}
+        <section id="thestory" className="waypoint waypoint--full">
+          <div className="waypoint_inner" style={{ maxWidth:800, margin:"0 auto" }}>
+            <div className="reveal" style={{ textAlign:"center" }}>
+              <div className="meta" style={{ justifyContent:"center" }}><span className="meta_num">11</span> <span>The Story They Didn't Put in the Portfolio</span></div>
+              <h2 style={{ textTransform:"uppercase" }}>WHAT REALLY<br/>HAPPENED</h2>
+            </div>
+            <div className="reveal" style={{ marginTop:32 }}>
+              <div style={{ fontFamily:"Josefin Sans", fontWeight:300, fontSize:16, lineHeight:1.8, color:"#C9CDD6" }}>
+                <p style={{ marginBottom:20 }}>
+                  The night before they left for Bombay, the servo in the gripper started to jitter. Then it stopped. While they were trying to fix it, the voltage regulator overheated and blew up. The ESP32 went with it. The whole Hexa Command Hub — dead.
+                </p>
+                <p style={{ marginBottom:20 }}>
+                  They stayed all night trying to fix it. In the morning, at 5 AM, they went to school to check if there were replacement parts. They found servos, exchanged them. The servos worked — then stopped again. They went back in the morning to check for a voltage regulator. Nothing.
+                </p>
+                <p style={{ marginBottom:20 }}>
+                  They packed their bags and left for Bombay. The robot was not working.
+                </p>
+                <p style={{ marginBottom:20, color:"#E8C84A" }}>
+                  At the hotel, they ordered a replacement Hexa Command Hub from the NRL organizers. The package came to the hotel. They started fixing the robot.
+                </p>
+                <p>
+                  Two days later, they competed at IIT Bombay. And won the Community Champions Award.
+                </p>
+              </div>
+              <div style={{ marginTop:32, padding:20, border:"1px solid rgba(232,200,74,0.2)", borderRadius:14, background:"rgba(232,200,74,0.04)", textAlign:"center" }}>
+                <div style={{ fontFamily:"Cormorant Garamond, serif", fontSize:18, color:"#E8C84A", fontStyle:"italic" }}>
+                  This story is not in the engineering portfolio. The portfolio was printed on 1 December — before the robot died.
+                </div>
+              </div>
             </div>
           </div>
         </section>
