@@ -64,7 +64,7 @@ export default function App() {
       <canvas className="canvas_bg" />
 
       <header className="topbar">
-        <a href="#hero" className="topbar_logo">Volt<span>Edge</span> <span className="topbar_id">{meta.id}</span></a>
+        <a href="#hero" className="topbar_logo"><img src="/favicon.svg" alt="" style={{ width:28, height:28, borderRadius:6 }} /> Volt<span>Edge</span> <span className="topbar_id">{meta.id}</span></a>
         <nav className="topbar_nav">
           <a href="#team">Team</a>
           <a href="#build">Build</a>
@@ -361,12 +361,15 @@ export default function App() {
         </section>
 
         <footer className="footer reveal">
-          <div className="footer_sub">VoltEdge {meta.id} • {meta.location} → {meta.venue} • {meta.championship}</div>
+          <div className="footer_sub">VoltEdge {meta.id} • {meta.school} • {meta.location} → {meta.venue} • {meta.championship}</div>
+          <div style={{ marginTop:12, padding:"8px 16px", border:"1px solid rgba(232,200,74,0.3)", borderRadius:999, display:"inline-block", fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".12em", textTransform:"uppercase", color:"#E8C84A", background:"rgba(232,200,74,0.06)" }}>
+            {meta.award}
+          </div>
           <div className="footer_links">
             <a href="#hero" className="btn btn_primary">Back to Top ↑</a>
             <a href="https://www.instagram.com/teamvoltedge" target="_blank" rel="noreferrer" className="btn btn_ghost">@teamvoltedge</a>
           </div>
-          <div className="small">Team tribute • Josefin Sans • Void / Gold / Cyan • Built Vite React • Netlify</div>
+          <div className="small">Typography: Josefin Sans • Palette: Void / Gold / Cyan • © Team VoltEdge</div>
         </footer>
       </main>
 

@@ -1,18 +1,15 @@
-# VoltEdge — NRL 2025 Tribute
+# VoltEdge 007 — NRL 2025 Team Tribute
 
 A standalone immersive storytelling tribute to Team VoltEdge (ID 007) and their journey to the **National Robotics League 2025 — Battle of Charges** at IIT Bombay, 6–7 December 2025.
 
-Built from the team's 60-page engineering portfolio. No external project links. No fiction. Just the build.
+Six students. One team. One national arena. Community Champions Award.
 
-## Live
-
-[Deploy on Netlify](https://your-site.netlify.app) — connect this repo to auto-deploy.
+Built from the team's 60-page engineering portfolio.
 
 ## Stack
 
 - **React 19** + Vite
 - **Lenis** — smooth scroll
-- **GSAP** + **Framer Motion** — scroll-reveal animations
 - **Josefin Sans** / **JetBrains Mono** — typography
 - Void / Gold / Cyan palette
 
@@ -29,40 +26,35 @@ npm run dev
 npm run build
 ```
 
-Output in `dist/`. Deploy to Netlify or any static host.
+Output in `dist/`. Deploy to any static host.
 
 ## Sections
 
-| # | Section | Pages |
-|---|---------|-------|
-| 01 | The First Spark | 1–2 |
-| 02 | Team Roles & Responsibilities | 3–7 |
-| 03 | Design & Approach | 8–11 |
-| 04 | Prototype | 12–14 |
-| 05 | EdgeBot | 15–19 |
-| 06 | Mechanical Systems | 20–23 |
-| 07 | Electronic Systems | 24–27 |
-| 08 | Programming & Testing | 28–30 |
-| 09 | Autonomous Systems | 31–32 |
-| 10 | Strategy — Battle of Charges | 33–35 |
-| 11 | Outreach | 36–40 |
-| 12 | Branding & Digital | 42–48 |
-| — | Arena (Verified Mechanics) | — |
-| — | Journey Timeline | 54–60 |
+| # | Section | Description |
+|---|---------|-------------|
+| 01 | The Six | Team members with equal visual weight |
+| 02 | The First Spark | 4 October — the midnight message |
+| 03 | The Build | 22—27 October — six evenings |
+| 04 | EdgeBot | From BaseBot to EdgeBot |
+| 05 | Autonomy | Built from zero sensors |
+| 06 | IIT Bombay | Arena + Community Champions Award |
+| 07 | Beyond the Arena | Outreach — Ali Public School |
+| 08 | Identity | Branding — Black + Gold |
+| 09 | The Journey | Complete timeline |
+| 10 | The Six | Closing — the people, not the robot |
 
 ## NRL Data
 
-All game mechanics verified against the official NRL Game Manual V2.0:
+Verified against official NRL Game Manual V2.0 and event photos:
 - Season: **Battle of Charges**
-- Match duration: **2:30**
-- Cycle window: **7–10 minutes**
+- Match: **2:30**, 7–10 minute cycles
 - Source Zone → CHARGE → Drop Zone
-- Charge Station — parking under for points
+- **Community Champions Award**
 - Source: [nrl.theinnovationstory.com](https://nrl.theinnovationstory.com)
 
 ## Credits
 
-Team VoltEdge — Bhatkal. Only team from the coast to the national stage.
+Team VoltEdge — Ali Public Pre-University College, Bhatkal.
 
 Typography inspired by [thevertmenthe](https://thevertmenthe.dault-lafon.fr/).
 
