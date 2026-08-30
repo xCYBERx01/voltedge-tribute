@@ -71,6 +71,7 @@ export default function App() {
           <a href="#edgebot">EdgeBot</a>
           <a href="#arena">Arena</a>
           <a href="#outreach">Community</a>
+          <a href="#event">Event</a>
           <a href="#journey">Journey</a>
         </nav>
         <button className="topbar_burger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu"><span /></button>
@@ -110,6 +111,7 @@ export default function App() {
             <div className="cta_row" style={{ marginTop:28 }}>
               <a href="#team" className="btn btn_primary">Meet the Team ↓</a>
               <a href="#arena" className="btn btn_ghost">The Arena →</a>
+              <a href="/Engineering-Portfolio-VoltEdge-007.pdf" target="_blank" rel="noreferrer" className="btn btn_ghost" download>Portfolio ↓</a>
             </div>
           </div>
         </section>
@@ -338,7 +340,7 @@ export default function App() {
 
         {/* THE SIX — closing, not the robot */}
         <section id="closing" className="waypoint waypoint--full">
-          <div className="waypoint_inner" style={{ maxWidth:800, margin:"0 auto" }}>
+          <div className="waypoint_inner" style={{ maxWidth:900, margin:"0 auto" }}>
             <div className="reveal" style={{ textAlign:"center" }}>
               <div className="meta" style={{ justifyContent:"center" }}><span className="meta_num">09</span> <span>The Six</span></div>
               <h2 style={{ textTransform:"uppercase" }}>VOLTEDGE 007</h2>
@@ -360,6 +362,31 @@ export default function App() {
           </div>
         </section>
 
+        {/* EVENT — IIT Bombay booth photo */}
+        <section id="event" className="waypoint waypoint--full">
+          <div className="waypoint_inner" style={{ maxWidth:1000, margin:"0 auto" }}>
+            <div className="reveal" style={{ textAlign:"center" }}>
+              <div className="meta" style={{ justifyContent:"center" }}><span className="meta_num">10</span> <span>IIT Bombay — Event Day</span></div>
+              <h2 style={{ textTransform:"uppercase" }}>THE NATIONAL ARENA</h2>
+              <p style={{ marginTop:8, fontFamily:"Josefin Sans", fontWeight:300, fontSize:15, color:"#C9CDD6", maxWidth:640, margin:"8px auto 0", textAlign:"center" }}>
+                6—7 December 2025. Team VoltEdge at their booth — EdgeBot, drone prototype, and the Transparent Glass Safety System poster on display.
+              </p>
+            </div>
+            <div className="reveal" style={{ marginTop:24 }}>
+              <img src="/assets/voltedge/nrl-event-booth.jpg" alt="Team VoltEdge at IIT Bombay — NRL 2025 booth" style={{ width:"100%", borderRadius:16, objectFit:"cover" }} loading="lazy" />
+              <p style={{ fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".1em", textTransform:"uppercase", color:"#6B7280", textAlign:"center", marginTop:10 }}>
+                Team VoltEdge — Booth at IIT Bombay, December 2025
+              </p>
+            </div>
+            <div className="reveal" style={{ marginTop:28, padding:24, border:"2px solid rgba(232,200,74,0.3)", borderRadius:16, background:"linear-gradient(135deg, rgba(232,200,74,0.08), rgba(200,169,10,0.03))", textAlign:"center" }}>
+              <div style={{ fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".15em", textTransform:"uppercase", color:"#E8C84A", marginBottom:8 }}>Community Champions Award — NRL 2025</div>
+              <p style={{ fontFamily:"Josefin Sans", fontWeight:300, fontSize:14, lineHeight:1.6, color:"#C9CDD6", maxWidth:560, margin:"0 auto" }}>
+                Recognized for building a robotics culture in Bhatkal — school workshops, kits distributed, STEM awareness, and inspiring the next generation. Only team from Bhatkal at the national arena.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <footer className="footer reveal">
           <div className="footer_sub">VoltEdge {meta.id} • {meta.school} • {meta.location} → {meta.venue} • {meta.championship}</div>
           <div style={{ marginTop:12, padding:"8px 16px", border:"1px solid rgba(232,200,74,0.3)", borderRadius:999, display:"inline-block", fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".12em", textTransform:"uppercase", color:"#E8C84A", background:"rgba(232,200,74,0.06)" }}>
@@ -367,6 +394,7 @@ export default function App() {
           </div>
           <div className="footer_links">
             <a href="#hero" className="btn btn_primary">Back to Top ↑</a>
+            <a href="/Engineering-Portfolio-VoltEdge-007.pdf" target="_blank" rel="noreferrer" className="btn btn_ghost" download>Download Portfolio ↓</a>
             <a href="https://www.instagram.com/teamvoltedge" target="_blank" rel="noreferrer" className="btn btn_ghost">@teamvoltedge</a>
           </div>
           <div className="small">Typography: Josefin Sans • Palette: Void / Gold / Cyan • © Team VoltEdge</div>
