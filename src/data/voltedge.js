@@ -8,7 +8,12 @@ export const meta = {
   dates: "4 Oct — 7 Dec 2025",
   championship: "6—7 December 2025",
   location: "Bhatkal",
+  org: "The Innovation Story / IIT Bombay / Param Capital",
   site: "nrl.theinnovationstory.com",
+  school: "Ali Public Pre-University College",
+  award: "Community Champions Award",
+  article: "https://english.fikrokhabar.com/team-voltedge-from-ali-public-pu-college-wins-community-champions-award-at-national-robotics-league-2025/",
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7499864515564425216/",
 };
 
 export const members = [
@@ -82,10 +87,15 @@ export const chapters = [
     kicker: "The Arena",
     title: "IIT Bombay.\nBattle of Charges.",
     body: [
-      "600+ students. 100+ teams. 65+ schools. One national arena at IIT Bombay.",
-      "VoltEdge stood as the only team representing Bhatkal — a coastal town sending its first robotics team to the national stage.",
+      "6—7 December 2025. IIT Bombay. 600+ students. 100+ teams. 65+ schools. One national arena.",
+      "VoltEdge — Ali Public Pre-University College, Bhatkal — stood as the only team representing their town on the national stage.",
       "Battle of Charges: 2 minutes 30 seconds per match, 7–10 minute cycles. Robots retrieve a CHARGE from the Source Zone, score it in the Drop Zone. Precision over speed. Shortest path wins.",
+      "At the booth: EdgeBot, a drone prototype, and the Transparent Glass Safety System poster — all on display for judges and teams from across India.",
     ],
+    award: {
+      title: "Community Champions Award",
+      body: "Recognized for building a robotics culture in Bhatkal — school workshops, kits distributed, STEM awareness, and inspiring the next generation.",
+    },
     stats: [
       { label: "Students", value: "600+" },
       { label: "Teams", value: "100+" },

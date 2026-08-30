@@ -94,8 +94,8 @@ export default function App() {
               <span style={{ margin:"0 8px", color:"#E8C84A" }}>→</span>
               <span>IIT BOMBAY</span>
             </div>
-            <div style={{ marginTop:12, fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".12em", textTransform:"uppercase", color:"#6B7280" }}>
-              {meta.season} • {meta.championship}
+            <div style={{ marginTop:12, padding:"8px 16px", border:"1px solid rgba(232,200,74,0.3)", borderRadius:999, display:"inline-block", fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".12em", textTransform:"uppercase", color:"#E8C84A", background:"rgba(232,200,74,0.06)" }}>
+              Community Champions Award
             </div>
             <div className="cta_row" style={{ marginTop:28 }}>
               <a href="#team" className="btn btn_primary">Meet the Team ↓</a>
@@ -232,7 +232,7 @@ export default function App() {
               <div className="meta" style={{ justifyContent:"center" }}><span className="meta_num">{chapters[4].num}</span> <span>{chapters[4].kicker}</span></div>
               <h2 style={{ textAlign:"center", textTransform:"uppercase" }}>IIT BOMBAY</h2>
               <p style={{ textAlign:"center", color:"#E8C84A", fontFamily:"JetBrains Mono, monospace", fontSize:12, letterSpacing:".12em", textTransform:"uppercase", marginTop:8 }}>
-                {meta.season} • {meta.championship}
+                {meta.championship}
               </p>
               {chapters[4].body.map((p, i) => <p key={i} style={{ maxWidth:700, margin:"14px auto 0", textAlign:"center" }}>{p}</p>)}
               <div style={{ display:"grid", gridTemplateColumns:"repeat(4, 1fr)", gap:16, marginTop:28 }}>
@@ -242,6 +242,12 @@ export default function App() {
                     <div style={{ fontFamily:"Josefin Sans", fontWeight:600, fontSize:22, color:"#E6E8EC", marginTop:4 }}>{s.value}</div>
                   </div>
                 ))}
+              </div>
+              {/* Community Champions Award */}
+              <div style={{ marginTop:28, padding:24, border:"2px solid rgba(232,200,74,0.4)", borderRadius:16, background:"linear-gradient(135deg, rgba(232,200,74,0.08), rgba(200,169,10,0.04))", textAlign:"center" }}>
+                <div style={{ fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".15em", textTransform:"uppercase", color:"#E8C84A", marginBottom:8 }}>Award</div>
+                <div style={{ fontFamily:"Josefin Sans", fontWeight:600, fontSize:22, color:"#E6E8EC", letterSpacing:".02em" }}>Community Champions</div>
+                <p style={{ fontFamily:"Josefin Sans", fontWeight:300, fontSize:14, lineHeight:1.6, color:"#C9CDD6", marginTop:8, maxWidth:560, margin:"8px auto 0" }}>{chapters[4].award.body}</p>
               </div>
               <div style={{ marginTop:28, textAlign:"center" }}>
                 <img src="/assets/voltedge/portfolio2_p35_2.jpeg" alt="Arena — Battle of Charges field" style={{ width:"100%", maxWidth:700, borderRadius:12, objectFit:"cover" }} loading="lazy" />
