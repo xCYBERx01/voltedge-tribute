@@ -369,13 +369,19 @@ export default function App() {
               <div className="meta" style={{ justifyContent:"center" }}><span className="meta_num">10</span> <span>IIT Bombay — Event Day</span></div>
               <h2 style={{ textTransform:"uppercase" }}>THE NATIONAL ARENA</h2>
               <p style={{ marginTop:8, fontFamily:"Josefin Sans", fontWeight:300, fontSize:15, color:"#C9CDD6", maxWidth:640, margin:"8px auto 0", textAlign:"center" }}>
-                6—7 December 2025. Team VoltEdge at their booth — EdgeBot, drone prototype, and the Transparent Glass Safety System poster on display.
+                6—7 December 2025. IIT Bombay. Team VoltEdge at their booth — EdgeBot, drone prototype, and the Transparent Glass Safety System poster on display for judges and teams from across India.
               </p>
             </div>
             <div className="reveal" style={{ marginTop:24 }}>
-              <img src="/assets/voltedge/nrl-event-booth.jpg" alt="Team VoltEdge at IIT Bombay — NRL 2025 booth" style={{ width:"100%", borderRadius:16, objectFit:"cover" }} loading="lazy" />
+              <img src="/assets/voltedge/team-booth-iit-bombay.jpg" alt="Team VoltEdge at IIT Bombay — NRL 2025 booth, all six members in matching jackets" style={{ width:"100%", borderRadius:16, objectFit:"cover" }} loading="lazy" />
               <p style={{ fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".1em", textTransform:"uppercase", color:"#6B7280", textAlign:"center", marginTop:10 }}>
                 Team VoltEdge — Booth at IIT Bombay, December 2025
+              </p>
+            </div>
+            <div className="reveal" style={{ marginTop:20 }}>
+              <img src="/assets/voltedge/nrl-event-booth.jpg" alt="Team VoltEdge at IIT Bombay — event coverage" style={{ width:"100%", borderRadius:16, objectFit:"cover" }} loading="lazy" />
+              <p style={{ fontFamily:"JetBrains Mono, monospace", fontSize:10, letterSpacing:".1em", textTransform:"uppercase", color:"#6B7280", textAlign:"center", marginTop:10 }}>
+                Coverage from NRL 2025 — Community Champions Award
               </p>
             </div>
             <div className="reveal" style={{ marginTop:28, padding:24, border:"2px solid rgba(232,200,74,0.3)", borderRadius:16, background:"linear-gradient(135deg, rgba(232,200,74,0.08), rgba(200,169,10,0.03))", textAlign:"center" }}>
