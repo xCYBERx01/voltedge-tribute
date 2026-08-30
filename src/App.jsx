@@ -64,7 +64,7 @@ export default function App() {
       <canvas className="canvas_bg" />
 
       <header className="topbar">
-        <a href="#hero" className="topbar_logo"><img src="/favicon.svg" alt="" style={{ width:28, height:28, borderRadius:6 }} /> Volt<span>Edge</span> <span className="topbar_id">{meta.id}</span></a>
+        <a href="#hero" className="topbar_logo"><img src="/logo.png" alt="" style={{ width:28, height:28, borderRadius:6, objectFit:"cover" }} /> Volt<span>Edge</span> <span className="topbar_id">{meta.id}</span></a>
         <nav className="topbar_nav">
           <a href="#team">Team</a>
           <a href="#build">Build</a>
