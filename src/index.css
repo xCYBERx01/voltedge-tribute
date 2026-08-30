@@ -75,7 +75,7 @@ body{
   border-bottom:1px solid transparent;
   transition: background .4s, border-color .4s, backdrop-filter .4s;
 }
-.topbar.visible{ background: rgba(7,10,15,0.7); backdrop-filter: blur(12px) saturate(1.2); border-color: var(--line)}
+.topbar.scrolled{ background: rgba(7,10,15,0.7); backdrop-filter: blur(12px) saturate(1.2); border-color: var(--line)}
 .topbar_logo{
   font-family:var(--josefin); font-weight:600; letter-spacing:.12em; text-transform:uppercase; font-size:13px;
   color:var(--text); text-decoration:none; display:flex; align-items:center; gap:8px;

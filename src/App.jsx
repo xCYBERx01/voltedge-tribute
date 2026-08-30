@@ -30,9 +30,19 @@ export default function App() {
   }, [loaded]);
 
   useEffect(() => {
+    if (!loaded) return;
+    const onScroll = () => {
+      const tb = document.querySelector(".topbar");
+      if (tb) tb.classList.toggle("scrolled", window.scrollY > 60);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [loaded]);
+
+  useEffect(() => {
     if (!lenis) return;
     const obs = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("visible"); obs.unobserve(e.target); } });
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); obs.unobserve(e.target); } });
     }, { threshold: 0.12 });
     document.querySelectorAll(".reveal").forEach(el => obs.observe(el));
     return () => obs.disconnect();
@@ -53,7 +63,7 @@ export default function App() {
       <div className="grid_overlay" />
       <canvas className="canvas_bg" />
 
-      <header className="topbar reveal">
+      <header className="topbar">
         <a href="#hero" className="topbar_logo">Volt<span>Edge</span> <span className="topbar_id">{meta.id}</span></a>
         <nav className="topbar_nav">
           <a href="#team">Team</a>
